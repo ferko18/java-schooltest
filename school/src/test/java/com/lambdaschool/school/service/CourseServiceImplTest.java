@@ -1,6 +1,8 @@
 package com.lambdaschool.school.service;
 
 import com.lambdaschool.school.SchoolApplication;
+import com.lambdaschool.school.model.Course;
+import com.lambdaschool.school.model.Instructor;
 import org.junit.Before;
 import org.junit.FixMethodOrder;
 import org.junit.Test;
@@ -52,6 +54,7 @@ public class CourseServiceImplTest
 
         assertEquals(5, courseService.findAll().toArray().length);
     }
+
 }
 
 
